@@ -6,6 +6,7 @@ function forLoop(array) {
   return array
 }
 
+<<<<<<< HEAD
 let number = 10
 
 function whileLoop(number) {
@@ -27,4 +28,11 @@ function doWhileLoop(array) {
   } while (array.length > 0 && maybeTrue());
   
   return array
+=======
+function whileLoop(number) {
+  while (number > 0) {
+    console.log("${number}")
+  }
+  return done
+>>>>>>> d8ce72e708cbdcf6a33b60fd4f399dd9c2de1b6e
 }
